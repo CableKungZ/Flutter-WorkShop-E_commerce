@@ -41,7 +41,7 @@ final List<Product> all = [
     category: "Electronics",
     review: "(320 Reviews)",
     rate: 4.8,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Woman Sweter",
@@ -58,7 +58,7 @@ final List<Product> all = [
     category: "Woman Fashion",
     review: "(32 Reviews)",
     rate: 4.5,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Smart Watch",
@@ -75,7 +75,7 @@ final List<Product> all = [
     category: "Electronics",
     review: "(20 Reviews)",
     rate: 4.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Mens Jacket",
@@ -92,9 +92,9 @@ final List<Product> all = [
     category: "Men Fashion",
     review: "(20 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Watch",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -109,9 +109,9 @@ final List<Product> all = [
     category: "MenFashion",
     review: "(100 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Air Jordan",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -126,7 +126,7 @@ final List<Product> all = [
     category: "Shoes",
     review: "(55 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Super Perfume",
@@ -143,7 +143,7 @@ final List<Product> all = [
     category: "Beauty",
     review: "(99 Reviews)",
     rate: 4.7,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Wedding Ring",
@@ -160,7 +160,7 @@ final List<Product> all = [
     category: "Jewelry",
     review: "(80 Reviews)",
     rate: 4.5,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "  Pants",
@@ -177,7 +177,7 @@ final List<Product> all = [
     category: "WomenFashion",
     review: "(55 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
 ];
 
@@ -197,7 +197,7 @@ final List<Product> shoes = [
     category: "Shoes",
     review: "(55 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Vans Old Skool",
@@ -214,7 +214,7 @@ final List<Product> shoes = [
     category: "Shoes",
     review: "(200 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Women-Shoes",
@@ -231,7 +231,7 @@ final List<Product> shoes = [
     category: "Shoes",
     review: "(100 Reviews)",
     rate: 4.8,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Sports Shoes",
@@ -248,7 +248,7 @@ final List<Product> shoes = [
     category: "Shoes",
     review: "(60 Reviews)",
     rate: 3.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "White Sneaker",
@@ -265,11 +265,9 @@ final List<Product> shoes = [
     category: "Shoes",
     review: "(00 Reviews)",
     rate: 0.0,
-    quantity: 1,
+    quantity: 10,
   ),
-  
 ];
-
 
 final List<Product> beauty = [
   Product(
@@ -287,7 +285,7 @@ final List<Product> beauty = [
     category: "Beauty",
     review: "(200 Reviews)",
     rate: 4.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Super Perfume",
@@ -304,9 +302,9 @@ final List<Product> beauty = [
     category: "Beauty",
     review: "(99 Reviews)",
     rate: 4.7,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Skin-Care Product",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -321,12 +319,11 @@ final List<Product> beauty = [
     category: "Beauty",
     review: "(20 Reviews)",
     rate: 4.2,
-    quantity: 1,
+    quantity: 10,
   ),
 ];
 
 final List<Product> womenFashion = [
-  
   Product(
     title: " Women Kurta",
     description:
@@ -342,7 +339,7 @@ final List<Product> womenFashion = [
     category: "WomenFashion",
     review: "(25 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Mens Jacket",
@@ -359,7 +356,7 @@ final List<Product> womenFashion = [
     category: "WomenFashion",
     review: "(100 Reviews)",
     rate: 4.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "T-Shert",
@@ -376,7 +373,7 @@ final List<Product> womenFashion = [
     category: "Electronics",
     review: "(20 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "  Pants",
@@ -393,12 +390,11 @@ final List<Product> womenFashion = [
     category: "WomenFashion",
     review: "(55 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
 ];
 final List<Product> jewelry = [
-
-Product(
+  Product(
     title: "Earrings",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -413,7 +409,7 @@ Product(
     category: "Jewelry",
     review: "(320 Reviews)",
     rate: 4.5,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Jewelry-Box",
@@ -430,9 +426,9 @@ Product(
     category: "Jewelry",
     review: "(100 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Wedding Ring",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -447,9 +443,9 @@ Product(
     category: "Jewelry",
     review: "(80 Reviews)",
     rate: 4.5,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Necklace-Jewellery",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -464,11 +460,10 @@ Product(
     category: "Jewellery",
     review: "(22 Reviews)",
     rate: 3.5,
-    quantity: 1,
+    quantity: 10,
   ),
 ];
 final List<Product> menFashion = [
-  
   Product(
     title: "Man Jacket",
     description:
@@ -484,9 +479,9 @@ final List<Product> menFashion = [
     category: "MenFashion",
     review: "(90 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Men Pants",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -501,7 +496,7 @@ final List<Product> menFashion = [
     category: "MenFashion",
     review: "(500 Reviews)",
     rate: 4.5,
-    quantity: 1,
+    quantity: 10,
   ),
   Product(
     title: "Men Shert",
@@ -518,9 +513,9 @@ final List<Product> menFashion = [
     category: "menFashion",
     review: "(200 Reviews)",
     rate: 3.0,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "T-Shirt",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -535,9 +530,9 @@ final List<Product> menFashion = [
     category: "MenFashion",
     review: "(1k Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
-   Product(
+  Product(
     title: "Watch",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
@@ -552,8 +547,6 @@ final List<Product> menFashion = [
     category: "MenFashion",
     review: "(100 Reviews)",
     rate: 5.0,
-    quantity: 1,
+    quantity: 10,
   ),
-
 ];
-

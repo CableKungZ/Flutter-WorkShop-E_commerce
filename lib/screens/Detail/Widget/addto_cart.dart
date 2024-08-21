@@ -17,6 +17,7 @@ class _AddToCartState extends State<AddToCart> {
   @override
   Widget build(BuildContext context) {
     final provider = CartProvider.of(context);
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 15),
       child: Container(
@@ -82,7 +83,7 @@ class _AddToCartState extends State<AddToCart> {
                 // if items is add then show this snackbar
                 const snackBar = SnackBar(
                   content: Text(
-                    "Successfully added!",
+                    "items Successfully added!",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 25,
